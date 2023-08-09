@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+
+}
+.navi {
+  height: 100px;
+  background: #089e9e3f;
+  font-family: fantasy;
+}
+.navi h1 {
+  text-align: center;
+  font-weight: 700;
+}
+.brand {
+  display: inline-flex;
+}
+.container {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.car {
+  width: 400px;
+  height: 550px;
+  box-shadow: 2, 2, 4, 4, rgba(1, 1, 1, 0.7);
+}
+.car img {
+  width: 350px;
+  height: 600px;
+  border-radius: 20px;
+}

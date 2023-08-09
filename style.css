@@ -28,12 +28,12 @@ body {
   justify-content: space-between;
   margin-top: 70px;
 }
-.car {
+.bird {
   width: 400px;
   height: 550px;
   box-shadow: 2, 2, 4, 4, rgba(1, 1, 1, 0.7);
 }
-.car img {
+.bird img {
   width: 350px;
   height: 600px;
   border-radius: 20px;

@@ -3,21 +3,32 @@ body {
   height: auto;
   margin: 0;
   padding: 0;
-  background: #000;
+  background-image: url(images/bg2.jpeg);
   background-position: center;
   background-attachment: fixed;
   overflow-x: hidden;
-
 }
 .navi {
   height: 100px;
-  background: #089e9e3f;
-  font-family: fantasy;
+  background: #0c0b0bf4;
+  font-family: sans-serif, Tahoma, Verdana, Geneva;
+  opacity: 0.8;
 }
 .navi h1 {
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &:hover {
+    color: black;
+    opacity: 1;
+  }
 }
+
 .species {
   display: inline-flex;
 }
@@ -29,12 +40,16 @@ body {
   margin-top: 70px;
 }
 .bird {
-  width: 400px;
-  height: 550px;
+  width: 375px;
+  height: 625px;
   box-shadow: 2, 2, 4, 4, rgba(1, 1, 1, 0.7);
 }
 .bird img {
   width: 350px;
   height: 600px;
   border-radius: 20px;
+}
+.bird:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
